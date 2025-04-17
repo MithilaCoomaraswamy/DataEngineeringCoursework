@@ -1,23 +1,23 @@
-# 📦 Weather ETL - Test Suite
+# Weather ETL - Test Suite
 
 This repository contains a set of test cases for the Airflow DAG `weather_etl_dag`, which fetches weather data from the OpenWeatherMap API and uploads it to AWS S3.
 
 ---
 
-## 🧪 What's Covered
+## What's Covered
 
-- ✅ Environment variable validation
-- ✅ API key presence and correctness
-- ✅ City name defaulting
-- ✅ API key failure (401 Unauthorized)
-- ✅ Invalid city (404 Not Found)
-- ✅ API timeouts and retries
-- ✅ Data transformation logic
-- ✅ S3 upload success and failure
+- Environment variable validation
+- API key presence and correctness
+- City name defaulting
+- API key failure (401 Unauthorized)
+- Invalid city (404 Not Found)
+- API timeouts and retries
+- Data transformation logic
+- S3 upload success and failure
 
 ---
 
-## 🧰 Prerequisites
+## Prerequisites
 
 Before running the tests, ensure you have:
 
